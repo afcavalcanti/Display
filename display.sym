@@ -1,0 +1,51 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+021     main.@SCRATCH1
+022     main.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+10D-10E @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+0004  main
+0004  @cinit
+
+Project Directory:
+    C:\Users\afcav\Desktop\dispaly\
+
+Project Files:
+    display.c
+    ..\..\..\..\Program Files (x86)\PICC\devices\16f628a.h
+
+Units:
+    display.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __16F628A TRUE
+
+Output Files:
+    Errors:      display.err
+    Ext Symbols: display.esym
+    INHX8:       display.hex
+    Symbols:     display.sym
+    List:        display.lst
+    Debug/COFF:  display.cof
+    Project:     display.PJT
+    Call Tree:   display.tre
+    Statistics:  display.sta

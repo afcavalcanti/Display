@@ -1,0 +1,8 @@
+#include<16f628a.h>
+
+void main(){
+	while(TRUE){
+		output_high(pin_b7);
+		output_high(pin_a4);
+	}
+}
