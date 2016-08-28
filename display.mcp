@@ -53,12 +53,12 @@ file_007=yes
 [FILE_INFO]
 file_000=C:\Users\afcav\Desktop\dispaly\display.c
 file_001=..\..\..\..\Program Files (x86)\PICC\devices\16f628a.h
-file_002=C:\Users\afcav\Desktop\dispaly\Untitled.SYM
-file_003=C:\Users\afcav\Desktop\dispaly\Untitled.TRE
-file_004=C:\Users\afcav\Desktop\dispaly\Untitled.STA
-file_005=C:\Users\afcav\Desktop\dispaly\display.SYM
-file_006=C:\Users\afcav\Desktop\dispaly\display.TRE
-file_007=C:\Users\afcav\Desktop\dispaly\display.STA
+file_002=C:\Users\afcav\Desktop\dispaly\display.SYM
+file_003=C:\Users\afcav\Desktop\dispaly\display.TRE
+file_004=C:\Users\afcav\Desktop\dispaly\display.STA
+file_005=C:\Users\afcav\Desktop\display\display.SYM
+file_006=C:\Users\afcav\Desktop\display\display.TRE
+file_007=C:\Users\afcav\Desktop\display\display.STA
 [SUITE_INFO]
 suite_guid={BA86BF99-4C07-4CE2-A9E7-C2A337910996}
 suite_state=
