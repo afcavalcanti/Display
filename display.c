@@ -20,7 +20,7 @@
 
 void main(){
 	while(TRUE){
-		//marcha 1 pra frente
+		//KV1
 		if(input(pin_a1) & input(pin_a2) & input(pin_a3)){
 			output_high(pin_a6);
 			output_low(pin_a7);
@@ -32,7 +32,7 @@ void main(){
 			output_high(pin_b6);
 			output_high(pin_b7);
 		}
-		//marcha 2 pra frente
+		//KV2
 		else if(input(pin_a2) & input(pin_a3)){
 			output_high(pin_a6);
 			output_low(pin_a7);
@@ -44,7 +44,7 @@ void main(){
 			output_low(pin_b6);
 			output_low(pin_b7);
 		}
-		//marcha 3 pra frente
+		//KV3
 		else if(input(pin_a2)){
 			output_high(pin_a6);
 			output_low(pin_a7);
@@ -56,7 +56,7 @@ void main(){
 			output_low(pin_b6);
 			output_low(pin_b7);
 		}
-		//marcha 4 pra frente
+		//KV4
 		else if(input(pin_b0)){
 			output_high(pin_a6);
 			output_low(pin_a7);
@@ -68,7 +68,7 @@ void main(){
 			output_high(pin_b6);
 			output_low(pin_b7);
 		}
-		//marcha 1 pra tras
+		//KR1
 		else if(input(pin_a0) & input(pin_a1) & input(pin_a3)){
 		 	output_low(pin_a6);
 			output_high(pin_a7);
@@ -80,7 +80,7 @@ void main(){
 			output_high(pin_b6);
 			output_high(pin_b7);
 		}
-		//marcha 2 pra tras
+		//KR2
 		else if(input(pin_a0) & input(pin_a3)){
 			output_low(pin_a6);
 			output_high(pin_a7);
@@ -92,7 +92,7 @@ void main(){
 			output_low(pin_b6);
 			output_low(pin_b7);
 		}
-		//marcha 3 pra tras
+		//KR3
 		else if(input(pin_a0)){
 			output_low(pin_a6);
 			output_high(pin_a7);
@@ -104,7 +104,7 @@ void main(){
 			output_low(pin_b6);
 			output_low(pin_b7);
 		}
-		//ponto morto
+		//N
 		else{
 			output_high(pin_a6);
 			output_high(pin_a7);
