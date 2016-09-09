@@ -34,7 +34,7 @@ void main(){
 			
 		}
 		//KV2
-		else if(input(pin_a2) & input(pin_a3)){
+		else if(input(pin_b0) & input(pin_b1)){
 			output_high(pin_b4);
 			output_low(pin_b3);
 			output_low(pin_a1);
@@ -46,7 +46,7 @@ void main(){
 			output_low(pin_a6);
 		}
 		//KV3
-		else if(input(pin_a2)){
+		else if(input(pin_b0)){
 			output_high(pin_b4);
 			output_low(pin_b3);
 			output_low(pin_a1);
@@ -58,7 +58,7 @@ void main(){
 			output_low(pin_a6);
 		}
 		//KV4
-		else if(input(pin_b0)){
+		else if(input(pin_b2)){
 			output_high(pin_b4);
 			output_low(pin_b3);
 			output_high(pin_a1);
@@ -70,7 +70,7 @@ void main(){
 			output_low(pin_a6);
 		}
 		//KR1
-		else if(input(pin_a0) & input(pin_a1) & input(pin_a3)){
+		else if(input(pin_a2) & input(pin_a3) & input(pin_b1)){
 		 	output_low(pin_b4);
 			output_high(pin_b3);
 			output_high(pin_a1);
@@ -82,7 +82,7 @@ void main(){
 			output_high(pin_a6);
 		}
 		//KR2
-		else if(input(pin_a0) & input(pin_a3)){
+		else if(input(pin_a2) & input(pin_b1)){
 			output_low(pin_b4);
 			output_high(pin_b3);
 			output_low(pin_a1);
@@ -94,7 +94,7 @@ void main(){
 			output_low(pin_a6);
 		}
 		//KR3
-		else if(input(pin_a0)){
+		else if(input(pin_a2)){
 			output_low(pin_b4);
 			output_high(pin_b3);
 			output_low(pin_a1);
